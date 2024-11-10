@@ -32,3 +32,17 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+------------------------------------------------------------------------------
+
+My complexity for this one is $\Theta(V + E)$
+
+First there is a while loop that at worst will iterate across all nodes so it will have a complexity of V
+
+Second there is a loop that will at worst traverse every single edge looking for nodes, so it has a compelxity of E
+
+So it is a complexity of $\Theta(V + E)$
+
+I needed a way to skip loop iterations and this link showed me to javascripts "continue" (https://www.w3schools.com/js/js_break.asp)
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
